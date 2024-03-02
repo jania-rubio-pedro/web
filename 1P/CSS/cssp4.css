@@ -1,0 +1,22 @@
+h1 {
+    color: rgba(190, 5, 135, 0.87);
+    background-color: rgba(211, 67, 180, 0.747);
+    text-align: center;
+    text-transform: uppercase;
+}
+.areaBonita {
+    border: 1px;
+    border-radius: 10%;
+    background-color: #d38ad3;
+    color: #e0a9d4;
+    height: 50px;
+    width: 450px;
+    font-size: 20px;
+
+}
+label{
+    padding-right: 10px;
+}
+body {
+    background-color: #9c6185;
+}
