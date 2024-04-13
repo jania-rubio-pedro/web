@@ -11,8 +11,44 @@ body{
 }
 header{
     background-color: aqua;
-    color: wheat;
+    color: rgb(126, 172, 190);
     text-align: left;
     padding: 10px;
     display: flex;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+   padding-right: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.tabla{
+    flex: 1;
+    background-color: rgb(86, 213, 230);
+    padding: 20px;
+}
+
+.dd{
+    flex: 1;
+    background-color: rgb(86, 213, 230);
+    padding: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+input[type="text"],
+input[type="tel"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
