@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+    background-color: aqua;
+    color: wheat;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+}
