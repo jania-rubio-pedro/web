@@ -4,3 +4,33 @@
 .bg-color2{
     background: bisque;
 }
+.border1{
+border: rgba(102, 54, 35, 0.938);
+}
+.bg-color1{
+    background-color: rgb(173, 89, 68);
+}
+.textsmall{
+    font-size: 10px;
+}
+.bg-color3{
+    color: rgb(143, 238, 130);
+}
+.bg-color4{
+    color: rgb(141, 63, 63);
+}
+
+.wit{
+    width: 40%;
+}
+.wit1{
+    width: 100%;
+}
+
+.wit2{
+    width: 400px;
+}
+
+.wit3{
+    width: 70px;
+}
