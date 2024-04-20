@@ -1,35 +1,41 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+.container{
+    border: 1px;
+    border-color: black;
+    display: flex;
+    background-color: bisque;
+}
+.nav{
+
+    background-color: rgb(129, 129, 110);
+   margin-right: 10px;
+   padding-top: 50%;
+   
+}
+.nav ul{
+   
+    list-style-type:none;
+   
+    margin: 10px;
     padding: 0;
+    color: bisque;
+
 }
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Estilos del encabezado */
-header {
-    background-color: #7c9aec;
-    color: #fff;
-    padding: 20px 0;
-}
-
-
-nav ul {
+.info ul{
+    display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.info ul h3{
+    padding-right: 50px;
 }
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.info img{
+    width: 50px;
+    
+   
+}
+.event{
+    display: flex;
+    padding: 30px;
+}
+.event select{
+    margin: 30px;
 }
